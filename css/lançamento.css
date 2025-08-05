@@ -55,10 +55,31 @@
     cursor: pointer;
 }
 
+.veiculo_informacao img{
+    width: 20px;
+    margin-top: auto;
+    vertical-align: bottom;
+}
+
 .texto_container{
     display:flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+.texto-container h5{
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: #1351d8;
+}
+
+.texto_container p{
+    margin: 0;
+    font-size: 11px;
+    text-align: left;
+    color: #000; 
 }
 
 .veiculo_informacao h5{
@@ -74,4 +95,27 @@
     font-size: 11px;
     text-align: left;
     color: #000;
+}
+
+.submit_botao{
+    background-color: #1351d8;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 200px;
+}
+
+.submit_botao:hover{
+    background-color: #00274c;
+    color: #fff;
+    transform: translateY(-2px);
 }
