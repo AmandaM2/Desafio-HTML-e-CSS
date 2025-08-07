@@ -34,7 +34,7 @@ header nav ul{
 header nav a{
     text-decoration: none;
     color: #1351d8;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease;
 }
@@ -43,21 +43,13 @@ header nav a:hover{
     color: #003478;
 }
 
-.menu{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 30px;
-    
-}
 footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1b357e;
+    background-color:#1b3571;
     color: #fff;
-    padding: 1.5rem;
+    padding: 10px 40px;
 
 }
 
@@ -71,7 +63,7 @@ footer{
 }
 
 .rodape__redesSociais img,
-.rodape__logo_footer{
+.rodape__logo_footer img{
     height: 30px;
     transition: transform 0.3s ease;
 }
@@ -86,7 +78,7 @@ footer{
     text-align: center;
 }
 
-@media (max-widh: 768px){
+@media (max-width: 768px){
 
     header{
         flex-direction: column;
@@ -110,7 +102,7 @@ footer{
     }
 
     .rodape__redesSociais img,
-    .rodape__logo_footer{
+    .rodape__logo_footer img{
         height: 25px;
     }
 
@@ -120,6 +112,4 @@ footer{
         max-width: 88%;
         margin: 0 auto;
     }
-
-    
 }
