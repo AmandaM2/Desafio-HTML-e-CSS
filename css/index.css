@@ -1,6 +1,23 @@
-.imagem_Principal img{
+/*.imagem_Principal img{
     max-width: 1500px;
     width: 100%;
     height: auto;
     border-radius: 10px;
+}*/
+
+main .imagem_Principal img{
+    max-width: 700px;
+    width: 100%;
+}
+
+main p{
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px){
+    main p{
+        font-size: 14px;
+    }
 }
