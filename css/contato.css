@@ -35,3 +35,72 @@
     margin-bottom: 5px;
     font-size: 1.3rem;
 }
+
+.input_grupo{
+    position: relative;
+}
+
+.input_grupo input,
+.input_grupo select,
+.input_grupo textarea{
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.input_grupo input:focus,
+.input_grupo select:focus,
+.input_grupo textarea:focus{
+    border-color: #00274C;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px rgba(0, 39, 76, 0.1);
+}
+
+.input_grupo select {
+    appearance: none;
+    color: #555;
+}
+
+.input_grupo textarea {
+    resize: vertical;
+    max-height: 50px;
+}
+
+.submit_botao{
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_botao:hover{
+    background-color: #00274C;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px){
+    .contato_pagina{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .formulario_container{
+        width:100%;
+        max-width: 100%;
+        padding: 0;
+    }
+}

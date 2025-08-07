@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/contato.css">
 </head>
+
 <body>
     <header>
         <img src="img/logo-ford-256.png" alt="Logo Ford Cabeçalho">
@@ -15,11 +17,12 @@
             <ul class="menu">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/Lançamento.html">Lançamento</a></li>
-                <li><a href="contato.html">contato</a></li>
+                <li><a href="/contato.html">contato</a></li>
             </ul>
         </nav>
         <div></div>
     </header>
+
     <main class="contato_pagina">
         <div class="contato_imagem">
             <img src="/img/xls 2.2 diesel.jpg" alt="Veiculo Contato">
@@ -27,10 +30,6 @@
         <section class="formulario_container">
             <form class="formulario">
                 <h3>Sobre Você</h3>
-
-                <div class="input_grupo">
-                    <input type="tel" placeholder="Telefone">
-                </div>
                 <div class="input_grupo">
                     <input type="text" placeholder="Nome Completo">
                 </div>
@@ -38,25 +37,27 @@
                     <input type="email" placeholder="E-mail">
                 </div>
                 <div class="input_grupo">
-                <select>
-                    <option value="" disabled selected hidden>Tipo de contato</option>
-                    <option value="elogio">Elogio</option>
-                    <option value="reclamacao">Reclamação</option>
-                    <option value="solicitacao">Solicitação</option>
-                </select>
+                    <input type="tel" placeholder="Telefone">
+                </div>
+                
+                <div class="input_grupo">
+                    <select>
+                        <option value="" disabled selected hidden>Tipo de contato</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="solicitacao">Solicitação</option>
+                    </select>
                 </div>
                 <div class="input_grupo">
-                <textarea placeholder="Sua mensagem" rows="2"></textarea>
+                    <textarea placeholder="Digite sua mensagem" rows="2"></textarea>
                 </div>
-                <button type="submit" class="submitbotao">
+                <button type="submit" class="submit_botao">
                     <span>Enviar Mensagem</span>
                 </button>
             </form>
         </section>
-
-   
-
     </main>
+    
     <footer class="rodape">
         <div class="rodape__redesSociais">
             <a href="https://www.facebook.com/FordBrasil/"><img src="/img/facebook-50.png"></a>
@@ -74,4 +75,5 @@
 
     </footer>
 </body>
+
 </html>

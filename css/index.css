@@ -1,3 +1,6 @@
-main .imagemPrincipal{
-    
+.imagem_Principal img{
+    max-width: 1500px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
